@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: green;
+    width: 100%;
+
+}
+
+a{
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fplogo {
+    width: 300px;
+    border-radius: 40px;
+}
+
+#gratis_tannhelse{
+    color: black;
+    width: 1000px;
+}
+
+#gratistannhelse_politikken {
+    width: 600px;
+
+}
+
+#gratis_buss {
+    width: 1000px;
+}
+
+#leksefri_skole {
+    width: 1000px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    word-spacing: 1px;
+}
+
+.headermeow:active{
+    color: green;
+    background-color: green;
+}
+
+.headermeow{
+    display: flex;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: rgb(199, 0, 0);
+    margin-left: 30px;
+    align-items: center;
+}

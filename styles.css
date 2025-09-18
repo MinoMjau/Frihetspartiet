@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: green;
+    width: 100%;
+
+}
+
+a{
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(199, 0, 0);
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    width: 600px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fplogo {
+    width: 300px;
+    border-radius: 40px;
+}
+
+#gratis_tannhelse{
+    color: black;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.headermeow:active{
+    color: green;
+    background-color: green;
+}
+
+.headermeow{
+    display: flex;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: rgb(199, 0, 0);
+    margin-left: 30px;
+    align-items: center;
+}
+
+.politikken_article{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 40px;
+    background-color: green;
+}
+
+.politikken_things{
+    background-color: rgb(199, 0, 0);
+    padding: 10px;
+}
+
+.politikken_images{
+    size: 300px;
+}
+
+.klemmetre{
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color:  rgb(199, 0, 0);
+    padding-right: 35%;
+    align-items: center;
+}
+
+.leksefriskole{
+    width: 500px;
+}
